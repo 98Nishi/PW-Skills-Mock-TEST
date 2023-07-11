@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+#textInput {
+  border-radius: 10px;
+  padding: 10px 35px;
+  font-size: 1.3rem;
+  color: #000000;
+  background-color: #ffdfdf;
+}
+#submitButton {
+  padding: 12px 35px;
+  margin-left: 5px;
+  background-color: #b4a7ff;
+  cursor: pointer;
+  color: #000000;
+  font-size: 15px;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  font-size: 1.3rem;
+  width: fit-content;
+  background-color: #a3a3a3;
+  border-radius: 10px;
+  padding: 7px;
+}
